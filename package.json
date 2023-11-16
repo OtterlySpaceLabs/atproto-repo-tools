@@ -36,6 +36,7 @@
 		"next": "^14.0.0",
 		"next-themes": "^0.2.1",
 		"react": "18.2.0",
+		"react-code-blocks": "^0.1.5",
 		"react-dom": "18.2.0",
 		"react-hook-form": "^7.48.2",
 		"superjson": "^1.13.1",
