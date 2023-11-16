@@ -1,5 +1,5 @@
 import { Dialog } from "@headlessui/react"
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
+import { XMarkIcon } from "@heroicons/react/24/outline"
 import { useState } from "react"
 
 import { ThemeToggle } from "~/components/shadcn/ui/theme-toggle"
