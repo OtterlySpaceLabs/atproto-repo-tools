@@ -35,7 +35,7 @@ export default function OpenGraphImage(req: NextRequest) {
 					fontWeight: 600
 				}}
 			>
-				<img src={imageSrc} alt="Open Graph Image" width={330} height={330} />
+				<img src={imageSrc} alt="Open Graph Image" width={330} height={330} tw="rounded-3xl" />
 				<div style={{ marginTop: 40 }}>AT Protocol Repo Tools</div>
 			</div>
 		),
