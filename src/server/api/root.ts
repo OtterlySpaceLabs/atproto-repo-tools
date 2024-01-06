@@ -1,3 +1,4 @@
+import { bskyRouter } from "~/server/api/routers/bsky"
 import { postRouter } from "~/server/api/routers/post"
 import { repoRouter } from "~/server/api/routers/repo"
 import { createTRPCRouter } from "~/server/api/trpc"
@@ -9,7 +10,8 @@ import { createTRPCRouter } from "~/server/api/trpc"
  */
 export const appRouter = createTRPCRouter({
 	post: postRouter,
-	repo: repoRouter
+	repo: repoRouter,
+	bsky: bskyRouter
 })
 
 // export type definition of API
